@@ -1,7 +1,7 @@
 
 let apiLink = "https://randomuser.me/api/?results=";
 
-let numberOfData = users;
+let numberOfData = users.length;
 const numbOfItemPerPage = 10;
 var numberOfPages = Math.ceil(numberOfData/numbOfItemPerPage);
 
